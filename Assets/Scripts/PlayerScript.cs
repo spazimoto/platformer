@@ -78,6 +78,8 @@ public class PlayerScript : MonoBehaviour
         if (scoreValue == 5)
         {
             transform.position = new Vector2(x, y); // the player gets translated to the next stage
+            livesValue = 3;
+            lives.text = "Lives: " + livesValue.ToString();
         }
         if (scoreValue == 10)
         {
