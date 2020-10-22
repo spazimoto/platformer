@@ -2,7 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - HEnemyController
     - PlayerScript
+    - VEnemyController
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -19,8 +21,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -53,7 +57,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -75,6 +91,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13582}
     - Class: 114
       Script: {instanceID: 13872}
+    - Class: 114
+      Script: {instanceID: 22944}
+    - Class: 114
+      Script: {instanceID: 30146}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -152,7 +172,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: 9e6bc2d69b96a7624da44e34ea54dd83
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -540,7 +560,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0ea2a42e5bcba025a95e3f0f75dce2dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VEnemyController
+  - hash:
+      serializedVersion: 2
+      Hash: 83180e82645f1cb4b793866de66f4450
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HEnemyController
   platform: 19
   scenePathNames:
   - Assets/Scenes/tutorial2.unity
-  playerPath: F:/Desktop/UNITY PROJECTS/tutorial2/buildtest2/New Unity Project.exe
+  playerPath: F:/Desktop/Challenge2/Challenge 2.exe
